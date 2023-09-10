@@ -12,4 +12,12 @@ comfiabilidade,)
 
 !importante (anexar rascunhos a baixo!)
 
-dfkjafbnkjasdnbfjkabfkjabfhklasbfhksfb 
+4 - nosso obejtivo com esse Website é unicamente atrair clientes pra quue comprem o nosso
+serviço de (consultoria monetaria)
+
+5 - nosse alvos são pessoas e empresas com alta remtabilidade,
+de pessoas  com idade em 20 e 80 anos, mas que naõ sabem fazer a gestão do seu dinheiro
+e que não tem a educação  financeira para comtrolar suas comprars ou gastos
+
+6 - o WebSite deverá ser responsivo para qualquer dispositivo, sejá movel ou desktop terá que transmitir a
+melhor experiencia para o usuario independente do dispositivo que ele estajá usando ou da deficiencia que ele possua.
