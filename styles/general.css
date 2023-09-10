@@ -3,6 +3,10 @@
 /* 
 color fonts general: #555 (grey)
 
+color primary:
+color secondary: #000
+color link visited : #333
+color hover- and active : #5ed64b
 
 
 
@@ -22,8 +26,7 @@ html {
 }
 
 body {
-    font-family: 'EB Garamond', serif;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'EB Garamond','Rubik',sans-serif, serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
