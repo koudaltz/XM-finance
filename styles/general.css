@@ -3,11 +3,12 @@
 /* 
 color fonts general: #555 (grey)
 
-color primary:
+color primary: #5ed64b
 color secondary: #000
 color link visited : #333
-color hover- and active : #5ed64b
-
+color hover- and active : #26561e;
+color cta: #fff
+color mora light of green : #dff7db
 
 
 
@@ -26,8 +27,136 @@ html {
 }
 
 body {
-    font-family: 'EB Garamond','Rubik',sans-serif, serif;
+    font-family: sans-serif, serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
+}
+
+/* 
+==================================
+===COMPONENTES REUSAVEIS GERAIS===
+==================================
+*/
+.container {
+    /*  1140px */
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--center-v{
+    align-items: center;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary,
+.heading-primary-1,
+.heading-secondary-1 {
+    font-weight: 700;
+    color: #555;
+    letter-spacing: 0.5px;
+}
+
+.heading-primary {
+    
+    font-size: 3.2rem;
+    line-height: 1.05;
+    /* margin-bottom: 5.2rem; */
+}
+.heading-primary-1 {
+    font-size: 5.2rem;
+    line-height: 1.5;
+    margin-bottom: 4.8;
+}
+.heading-secondary {
+    font-size: 4.4rem;
+    line-height: 3.2;
+    margin-bottom: 2.4;
+}
+
+.heading-tertiary {
+    font-size: 3.6rem;
+    margin-bottom: 3.2rem;
+    line-height: 1.2rem;
+}
+
+.subheading{
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #5ed64b;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+
+
+    background-color: #5ed64b;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+
+    /* coloca tempo de transisão das cores */
+    transition: background-color 0,3s;
+}
+.btn--full:link,
+.btn--full:visited {
+    background-color:#5ed64b ;
+    color: #fff;
+
+}
+.btn--full:hover,
+.btn--full:active {
+    background-color:#26561e ;
+    
+
+}
+
+
+.btn--outline:link,
+.btn--outline:visited {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+    background-color: #dff7db;
+    /* coddigo para colocar o borda do lado de dentro */
+    box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin-right-sm {
+    margin-right: 1.6rem !important; 
+    /* é uma boa pratica colocar qual cofigo deve ser priorizado */
+}
+span {
+    color: #5ed64b
 }
