@@ -3,6 +3,15 @@
 ========HEADER============
 ==========================
 */
+@media (min-width: 375px) and (max-width: 450px) {
+    .header.header {
+        padding: 0%;
+        background-color: #fff;
+    }
+    .body {
+        width: 100%;
+    }
+}
 
 .header {
     
@@ -75,7 +84,7 @@
 =======================
 */
 .section-hero {
-    
+    height: 100vh;
     background-image: url(../assets/content/1080.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +126,41 @@
 /********************************************/
 /* sevices */
 /********************************************/
+@media (min-width: 375px) and (max-width: 450px) {
+    .section-how.section-how {
+        margin: auto;
+        width: 100%;
+        padding: 5.2rem 0;
+        align-items: baseline;
+        display: block;
+    }
+
+    .heading-tertiary.heading-tertiary {
+        font-size: 2.0rem;
+        margin-bottom: 2.2rem;
+        line-height: 1.4rem;
+    }
+    .heading-secondary.heading-secondary{
+        font-size: 2.4rem;
+        line-height: 3.2;
+        margin-bottom: 2.4;
+    }
+    .servico-description.servico-description {
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+    .grid.grid {
+        display: grid;
+        column-gap: 1rem;
+        row-gap: 4.6rem;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+
+}
 .section-how {
+    margin: auto;
+    width: 100rem;
     padding: 10.6rem 0;
     align-items: baseline;
 }
