@@ -5,6 +5,11 @@
 */
 @media (min-width: 375px) and (max-width: 450px) {
     .header.header {
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        
+        align-items: center;
         padding: 0%;
         background-color: #fff;
     }
@@ -14,7 +19,11 @@
 }
 
 .header {
-    
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 10rem;
+    position: fixed;
 
     display: flex;
     justify-content: space-between;
@@ -115,6 +124,9 @@
     width: 100%;
 }
 
+.hero-text-box {
+   margin-top: 30rem;
+}
 
 
 .cliente-texto {
@@ -152,10 +164,54 @@
     .grid.grid {
         display: grid;
         column-gap: 1rem;
-        row-gap: 4.6rem;
+        row-gap: 1.6rem;
         grid-template-columns: repeat(1, 1fr);
     
     }
+    .heading-primary-1.heading-primary-1 {
+        font-size: 3.2rem;
+        line-height: 1.4;
+        margin-bottom: 2.8;
+    }
+    .container.container {
+        /*  1140px */
+        /* height: 100vh; */
+        /* width: 100vw; */
+        max-width: 120rem;
+        padding: 0 3.2rem;
+        margin: 0 auto;
+    }
+    .section-nossa-historia.section-nossa-historia{
+        width: 40rem;
+        padding: 0;
+        margin: 0, 4rem;
+    }
+    .margin-nossa-historia.margin-nossa-historia{
+        margin: 4rem 4rem;
+        padding: 1rem;
+    }
+    .servico-description-nossa-historia.servico-description-nossa-historia {
+        font-size: 1.4rem;
+        line-height: 1.2;
+        margin-bottom: 1.4rem;
+        
+    
+    }
+    .nossa-historia-text-box.nossa-historia-text-box{
+        margin-top: 0.5rem;
+    }
+    .section-hero.section-hero {
+        height: 100vh;
+        background-image: url(../assets/content/rio\ e\ montanhas.jpg);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-color: #fff;
+        padding: 9.6rem 0;
+    }
+    .write-write.write-write{
+        color: #fff;
+    }
+    
 
 }
 .section-how {
