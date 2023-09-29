@@ -140,6 +140,9 @@ body {
 .btn--full:hover,
 .btn--full:active {
     background-color:#26561e ;
+    font-size: x-large;
+    transition: 0.50s;
+
     
 
 }
