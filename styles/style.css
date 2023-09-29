@@ -215,7 +215,7 @@
     }
     .section-hero.section-hero {
         height: 100vh;
-        background-image: url(../assets/content/rio\ e\ montanhas.jpg);
+        background-image: url(../assets/content/galaxia\ planeta.jpg);
         background-repeat: no-repeat;
         background-position: cover;
         background-color: #fff;
@@ -224,7 +224,6 @@
     .write-write.write-write{
         color: #fff;
     }
-    
 
 }
 
